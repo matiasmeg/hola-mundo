@@ -1,6 +1,6 @@
 ## Hola Mundo
 
-Sitio Web desarrollado aplicar los contenidos aprendidos en un curso de desarrollo web.
+Sitio Web creado para aplicar los contenidos aprendidos en un curso de desarrollo web.
 
 
 ### Skills:
