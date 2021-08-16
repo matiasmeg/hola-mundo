@@ -40,39 +40,33 @@
         <form action="data.html" target="_blank" style="text-align: center;">
 
             <label for="first_name">Nombre</label>
-            <br>
-            <input  type="text" id="first_name" name="nombre" placeholder="Nombre">
+            <input  type="text" id="first_name" name="nombre" placeholder="Nombre" required>
             <br>
             <br>
     
             <label for="last_name">Apellido</label>
-            <br>
-            <input type="text" id="last_name" name="apellido" placeholder="Apellido" >
+            <input type="text" id="last_name" name="apellido" placeholder="Apellido" required >
             <br> 
             <br>
     
             <label for="dni">DNI</label>
-            <br>
             <input type="name" id="dni" name="dni">
             <br>
             <br>
     
             <label for="edad">Edad</label>
-            <br>
+
             <input type="number" id="edad" name="edad">
             <br>
             <br>
     
             <label for="email">Email</label>
-            <br>
-            <input type="email" id="email" name="email" placeholder="micorreo@gmail.com">
+            <input type="email" id="email" name="email" placeholder="micorreo@gmail.com" required>
             <br>
             <br>
     
             <label for="tel">Teléfono</label>
-            <br>
             <input type="tel" id="tel" name="tel">
-    
     
             <br>
             <p>Género:</p>
@@ -87,7 +81,6 @@
             <br>
             <br>
             <label for="fecha">Fecha de registro</label>
-            <br>
             <input id="fecha" type="date" name="fecha">
             <br>
             
@@ -110,7 +103,7 @@
             <br>
             <br>
             <label for="viajero">Frecuncia de viajes</label>
-            <br>
+
             <select id="viajero">
                 <option>Muy frecuente (más de 4 veces al año)</option>
                 <option>Regular (entre 2 y 3 veces al año)</option>
@@ -123,7 +116,7 @@
             <br>
             <textarea type="text" id="mensaje" name="mensaje" rows="10" cols="50"></textarea>
             <br>
-            <input type="checkbox" name="cond">Acepto los términos y condiciones.
+            <input type="checkbox" name="cond" required>Acepto los términos y condiciones.
             <br>
             <br>
     
